@@ -1,0 +1,40 @@
+body{
+    background-image: url(../photos/2.jpg) ;
+    
+   background-attachment: fixed;
+  background-position: 50% 50% ;
+  background-size: cover;
+    margin: 20px;
+    text-transform: capitalize;
+ 
+    max-height: 500px;
+}
+#logout{
+font-size: 2rem;
+border: 1px white;
+background-color: rgb(255, 0, 0) ;
+grid-column: span 2;
+height: 110px;
+width: 300px;
+align-content: center;
+word-wrap: break-word;
+justify-content: center ;  
+align-content: center;
+left: 1200px;
+top: 500px;
+position: relative;
+font-size: 30px;
+
+}
+a{
+text-decoration: none;
+color: black;
+
+}
+.ref{
+  font-size: 50px;
+color: aliceblue;
+background-color: rgba(127, 255, 212, 0.5);
+text-decoration: none;
+
+}

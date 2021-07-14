@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Library</title>
+    <meta name="description" content="Welcom to our library!">
+    <link rel="stylesheet" href="css/updateUser.css">
+</head>
+
+<body>
+    <form action="" method="POST">
+        <label> Book Name:</label>
+        <input id = "bookName" type="text" required placeholder="Enter book name " name="Book name" >
+        <br><br>
+
+        <label> Category:</label>
+        <input id = "secName" type="text" required placeholder="Enter Category name " name="second name" >
+        <br>
+        <br>
+
+        <label> Price:</label>
+        <input  id ="Price" type="number" required name="Number" min="1">
+        <br><br>
+
+        <input type="submit" onclick="addBookValidation()">
+        <button id="logout"><a href="Home.html">LogOut</a></button>
+        <script src="JS/validation.js"> </script>
+</body>
+
+
+</html>

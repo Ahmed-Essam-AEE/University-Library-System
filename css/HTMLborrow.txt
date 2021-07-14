@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+ <head>
+ <title> BORROW </title>
+ <meta charset="UTF-8">
+ <title> css syntax </title>
+ <link rel="stylesheet" href="style.css" />
+ </head>
+ 
+ <style>
+ body,html{
+ height:100%;
+ width:100%;
+ }
+ 
+ .two{
+ height:100%;
+width:100%;
+background-image:url(photo15.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+}
+ .book{
+ color:white;
+ position :relative;
+ top:200px;
+ left:610px;
+ font-size:50px;
+ }
+ 
+ .labels{
+ color:#fffacd				;
+ position:relative;
+ left:550px;
+ top:230px; 
+ vertical-align:middle;
+ font-size:40px;
+ padding:20px;
+ 
+ }
+ 
+ 
+ 
+ input[type=submit] {
+  width: 150px;
+  background-color: #cd5c5c	;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none; 
+  border-radius: 4px;
+  cursor: pointer;
+  left:30px;
+}
+
+ </style>
+ 
+ <body>
+  
+  
+  <div class="two">
+  
+     <span class="book"> Borrow a Book </span> 
+	 
+	 <div class="labels">
+	 <form id="myform">
+	 <label for="name"> BOOK NAME : </label>
+	 <input id="name" type="text" value="ENTER BOOK NAME"/>
+	 <br>
+	 
+	 	
+		 <label for="book category">Book Category:</label>
+    
+  <select id="PAYMENT METHOD" name="PAYMENT METHOD">
+    <option value="Horror">Horror</option>
+    <option value="Romance">Romance</option>
+	<option value="Science Fiction">Science Fiction</option>
+    <option value="Cooking">Cooking</option>
+    <option value="Art">Art</option>
+	<option value="History">History</option>
+  </select>
+    <br>
+	 <label > RETURN DATE: <input type="date"> </label>
+	 	 <br>
+	
+
+	 <input type="submit" value="Borrow" /> 
+
+	 
+	 
+	 </form>
+     </div>
+  
+  
+  
+  
+  </div>
+  
+  
+  
+ </body>

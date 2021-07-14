@@ -1,0 +1,42 @@
+body{
+    background-image: url(../photos/2.jpg) ;
+    
+   background-attachment: fixed;
+  background-position: 50% 50% ;
+  background-size: cover;
+    margin: 20px;
+    text-transform: capitalize;
+ 
+    max-height: 500px;
+}
+button {
+  cursor: pointer ; /*to change the arrow design while clicking*/
+  font-size: 2rem;
+  border: 1px white;
+  background-color: rgb(102, 185, 224) ;
+  grid-column: span 2;
+  height: 110px;
+  width: 300px;
+  align-content: center;
+  word-wrap: break-word;
+  justify-content: center ;  
+  align-content: center;
+  left: 450px;
+  top: 100px;
+  position: relative;
+}
+
+button:hover{
+  background-color: rgba(255, 255, 255, 0.9);
+}
+a{
+  text-decoration: none ;
+  color: black ;
+}
+h1{font-size: 100px;
+color: rgb(16, 32, 121);
+
+background-color: rgba(255, 255, 255, 0.329);
+
+
+}
