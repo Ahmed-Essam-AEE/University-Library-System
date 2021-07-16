@@ -1,0 +1,163 @@
+{% load static %}
+<!DOCTYPE html>
+
+<head>
+  <title> BROWSE </title>
+  <meta charset="UTF-8">
+  <title> css syntax </title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    body,
+    html {
+      height: 100%;
+      width: 100%;
+    }
+
+    .one {
+      height: 100%;
+      width: 100%;
+      background-image: url('{% static "2.jpg"%}');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .navbar {
+      background-color: black;
+      color: #676767;
+      overflow: hidden;
+      opacity: 0.5;
+      text-align: top-right;
+    }
+
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0
+    }
+
+    li {
+      float: right;
+      margin-left: 20px;
+      display: inline-block;
+      color: black;
+       padding:10px;
+      margin: 0;
+    }
+
+    .navbar a {
+      position: relative; text-align:right;
+      left: 30px;
+      float: right;
+      color: white;
+      text-align: right;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+
+
+    }
+
+    .words {
+      position: relative;
+      color: white;
+      padding: 8px;
+      left: 500px;
+      top: 2px;
+      font-family: Papyrus;
+      font-size: 40px;
+
+    }
+
+    .buttons {
+
+      position: relative;
+      background-color: white;
+      border: none;
+      color: black;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      opacity: 0.8;
+      top: 250px;
+      left: 650px;
+
+
+    }
+
+    .two {
+      height: 100%;
+      width: 100%;
+      background-image: url(photo10.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .labels {
+      color: #ffd700;
+      position: relative;
+      left: 520px;
+      top: 30px;
+      vertical-align: middle;
+      font-size: 40px;
+      padding: 20px;
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="one">
+
+    <div class="navbar">
+
+
+
+    </div>
+
+    <div class="words">
+      <p class=" welcome"> Welcome To Our </p>
+
+      <p class=" uni"> University Library system</p>
+    </div>
+
+    <div class="buttons">
+
+      </a>
+    </div>
+
+    <div class="two">
+
+      <span class="book"> BOOK A VISIT </span>
+
+      <div class="labels">
+        <form id="myform">
+          <label for="name">Book Name : </label>
+          <input id="name" type="text" value="ENTER Book NAME" />
+          <br>
+          <label> Author Name :<input type="text" value="Enter Author Name"> </label>
+
+          <br>
+          <label for="PAYMENT METHOD">Admin or Student:</label>
+
+          <select id="PAYMENT METHOD" name="PAYMENT METHOD">
+            <option value="CASH">Admin</option>
+            <option value="VISA">Student</option>
+          </select>
+          <br>
+          <a style="color:blue;" href="available books.html">browse </a>
+
+
+        </form>
+      </div>
+
+
+
+    </div>
+
+
+</body>
+
+</html>
