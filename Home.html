@@ -10,6 +10,18 @@
     <title>Library</title>
     <meta name="description" content="Welcom to our library!">
     <link rel="stylesheet" href="css/Home.css">
+    <script>
+        function learnMore (){
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function(){
+                if (this.readyState == 4 && this.status == 200){
+                    document.getElementById("buttonLearn").innerHTML= this.responseText;
+                }
+            };
+            xhttp.open ("GET","LearnMore.html",true);
+            xhttp.send();    
+        }
+    </script>
 </head>
 
 <body>
@@ -20,6 +32,11 @@
     <br> <br>
     <button><a href="SignAdmin.html">Signup as Admin</a></button>
     <button><a href="SignStudent.html">Signup as Student</a></button>
+    
+    <div id = "buttonLearn">
+         <button type="button" onclick="learnMore()">Learn more </button>
+    </div>
+   
 
 
 
