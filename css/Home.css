@@ -1,5 +1,5 @@
 body{
-    background-image: url(../photos/2.jpg) ;
+    background-image: url(../photos/4.jpg) ;
     
    background-attachment: fixed;
   background-position: 50% 50% ;
@@ -10,7 +10,7 @@ body{
     max-height: 500px;
 }
 button {
-  cursor: pointer ; /*to change the arrow design while clicking*/
+  cursor: pointer ; 
   font-size: 2rem;
   border: 1px white;
   background-color: rgb(102, 185, 224) ;
@@ -39,4 +39,14 @@ color: rgb(16, 32, 121);
 background-color: rgba(255, 255, 255, 0.329);
 
 
+}
+#buttonLearn{
+  
+  height: 55px;
+  width: 300px;
+  background-color: rgb(119, 8, 86) ;
+  color :aliceblue
+}
+#buttonLearn:hover{
+  background-color: rgba(0, 0, 0, 0.9);
 }
