@@ -1,5 +1,5 @@
 body{
-    background-image: url(../photos/2.jpg) ;
+    background-image: url(../photos/4.jpg) ;
     
    background-attachment: fixed;
   background-position: 50% 50% ;
@@ -10,21 +10,21 @@ body{
     max-height: 500px;
 }
 #logout{
-font-size: 2rem;
+
+  font-size: 2rem;
 border: 1px white;
 background-color: rgb(255, 0, 0) ;
 grid-column: span 2;
-height: 110px;
-width: 300px;
+height: 55px;
+width: 250px;
 align-content: center;
 word-wrap: break-word;
 justify-content: center ;  
 align-content: center;
-left: 1200px;
-top: 500px;
+left: 1250px;
+bottom: 320px;
 position: relative;
 font-size: 30px;
-
 }
 a{
 text-decoration: none;
