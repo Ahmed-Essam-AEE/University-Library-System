@@ -15,22 +15,25 @@
 
 
 <body>
-    <form action="" method="POST">
+    <form id = "form" action="" method="POST">
         <label> Book Name:</label>
-        <input type="text" required placeholder="Enter book name " name="Book name">
+        <input id = "name " type="text" required placeholder="Enter book name " name="Book name">
         <br><br>
 
         <label> Category:</label>
-        <input type="text" required placeholder="Enter Category name " name="second name">
+        <input id = "Category" type="text" required placeholder="Enter Category name " name="second name">
         <br>
         <br>
 
         <label> Price:</label>
-        <input type="number" required name="Number" min="1">
+        <input id = "price" type="number" required name="Number" min="1">
         <br><br>
 
-        <input type="submit">
+        <input onclick="creatBook(name,category,price)" id = "submit" type="submit">
+        
         <button id="logout"><a href="Home.html">LogOut</a></button>
+
+        <script src="JS/main.js"></script>
 
 </body>
 
