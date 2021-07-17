@@ -1,5 +1,5 @@
 body{
-  background-image: url(../photos/2.jpg) ;
+  background-image: url(../photos/4.jpg) ;
   
  background-attachment: fixed;
 background-position: 50% 50% ;
@@ -11,21 +11,21 @@ background-size: cover;
 }
 input {
 
-font-size: 2rem;
-border: 1px white;
-background-color: rgb(255, 255, 255) ;
-grid-column: span 2;
-height: 110px;
-width: 300px;
-align-content: center;
-word-wrap: break-word;
-justify-content: center ;  
-align-content: center;
-left: 550px;
-top: 0px;
-position: relative;
-font-size: 30px;
-}
+  font-size: 2rem;
+  border: 1px white;
+  background-color: rgb(255, 255, 255) ;
+  grid-column: span 2;
+  height: 55px;
+  width: 250px;
+  align-content: center;
+  word-wrap: break-word;
+  justify-content: center ;  
+  align-content: center;
+  left: 550px;
+  top: 0px;
+  position: relative;
+  font-size: 20px;
+  }
 
 
 a{
