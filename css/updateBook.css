@@ -11,21 +11,21 @@ background-size: cover;
 }
 input {
 
-font-size: 2rem;
-border: 1px white;
-background-color: rgb(255, 255, 255) ;
-grid-column: span 2;
-height: 110px;
-width: 300px;
-align-content: center;
-word-wrap: break-word;
-justify-content: center ;  
-align-content: center;
-left: 550px;
-top: 0px;
-position: relative;
-font-size: 30px;
-}
+  font-size: 2rem;
+  border: 1px white;
+  background-color: rgb(255, 255, 255) ;
+  grid-column: span 2;
+  height: 55px;
+  width: 250px;
+  align-content: center;
+  word-wrap: break-word;
+  justify-content: center ;  
+  align-content: center;
+  left: 550px;
+  top: 0px;
+  position: relative;
+  font-size: 20px;
+  }
 
 
 a{
@@ -43,19 +43,18 @@ font-weight: 900;
 color: white;
 }
 #logout{
-
-  font-size: 2rem;
+font-size: 2rem;
 border: 1px white;
 background-color: rgb(255, 0, 0) ;
 grid-column: span 2;
-height: 110px;
-width: 300px;
+height: 55px;
+width: 250px;
 align-content: center;
 word-wrap: break-word;
 justify-content: center ;  
 align-content: center;
-left: 900px;
-top: 200px;
+left: 5px;
+top: 5px;
 position: relative;
 font-size: 30px;
 }
