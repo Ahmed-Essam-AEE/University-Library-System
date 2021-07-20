@@ -1,3 +1,5 @@
+
+  
 function addBookValidation(){
   var name = document.getElementById("name").value ,
       category = document.getElementById("Category").value,
@@ -31,7 +33,6 @@ document.getElementById("form").addEventListener('submit',(e)=>{
   let category = document.getElementById("Category").value;
   let price =document.getElementById("price").value ;
   creatBook(name,category,price);
-  
 });
 
 var Books = [];
@@ -48,7 +49,41 @@ function creatBook(name,category,price) {
 }
 
 
-var books = [
+function searchBook(){
+
+  var title =  document.getElementById("title").value ,
+      author = document.getElementById("author").value ,
+      ISBN =  document.getElementById("ISBN").value ,
+      pubyear =  document.getElementById("PubYear").value ; 
+
+  if(title == "" || author == "" || ISBN == "" || pubyear == "")
+  {
+        alert("this must be filled out");
+        document.getElementById(myform).focus();
+        return false;
+
+  }
+  else if (isNaN(ISBN))
+  { 
+        alert("Enter only numbers");
+				document.getElementById("ISBN").style.color="Red";
+				return false;
+  }
+  else if (isNaN(pubyear))
+  { 
+    alert("Enter only numbers");
+    document.getElementById("PubYear").style.color="Red";
+    return false;
+  }
+  else if (isNaN(price))
+    {
+      alert("Enter only numbers");
+      document.getElementById("Price").style.color="Red";
+      return false;
+    }
+}
+
+/*var books = [
   {
     "title_" : "T1",
     "author_" : "A1",
@@ -66,9 +101,11 @@ var books = [
     "author_" : "A3",
     "ISBN_" : "I3",
     "Pubyear_" : "Y3"
-    ]
+  }
+]
 
 function searchBook(title,author,ISBN,pubyear){
+
   var title =  document.getElementById("title").value ,
       author = document.getElementById("author").value ,
       ISBN =  document.getElementById("ISBN").value ,
@@ -112,4 +149,7 @@ function searchBook(title,author,ISBN,pubyear){
     }
   });
   }
-}  
+}  */
+
+  
+ 
