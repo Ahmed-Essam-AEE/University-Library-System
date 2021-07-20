@@ -31,7 +31,7 @@ document.getElementById("form").addEventListener('submit',(e)=>{
   let category = document.getElementById("Category").value;
   let price =document.getElementById("price").value ;
   creatBook(name,category,price);
-  e.preventDefault();
+  
 });
 
 var Books = [];
