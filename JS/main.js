@@ -68,8 +68,7 @@ var books = [
     "Pubyear_" : "Y3"
     ]
 
-function searchBook(){
-
+function searchBook(title,author,ISBN,pubyear){
   var title =  document.getElementById("title").value ,
       author = document.getElementById("author").value ,
       ISBN =  document.getElementById("ISBN").value ,
